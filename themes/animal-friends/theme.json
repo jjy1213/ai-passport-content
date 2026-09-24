@@ -1,0 +1,1 @@
+{"schemaVersion":1,"id":"animal-friends","version":1,"title":"Animal Friends","accent":"#FFB34D","lessons":[{"id":"cat","phrase":"This is a cat.","hint":"A cat says meow.","audio":null},{"id":"dog","phrase":"This is a dog.","hint":"A dog says woof.","audio":null},{"id":"bird","phrase":"I see a bird.","hint":"Look up at the sky.","audio":null}]}

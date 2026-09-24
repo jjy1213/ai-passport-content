@@ -8,6 +8,34 @@
       "summary": "A gentle first set of greetings for little voices.",
       "version": 1,
       "manifest": "themes/good-morning/theme.json",
+      "download": "courses/good-morning-course.json",
+      "estimatedBytes": 1024
+    },
+    {
+      "id": "animal-friends",
+      "title": "Animal Friends",
+      "summary": "Meet, name and say a few animal words together.",
+      "version": 1,
+      "manifest": "themes/animal-friends/theme.json",
+      "download": "courses/animal-friends-course.json",
+      "estimatedBytes": 1024
+    },
+    {
+      "id": "snack-time",
+      "title": "Snack Time",
+      "summary": "Small everyday words for a favorite family moment.",
+      "version": 1,
+      "manifest": "themes/snack-time/theme.json",
+      "download": "courses/snack-time-course.json",
+      "estimatedBytes": 1024
+    },
+    {
+      "id": "story-trip",
+      "title": "Story Trip",
+      "summary": "Follow a tiny adventure, one phrase at a time.",
+      "version": 1,
+      "manifest": "themes/story-trip/theme.json",
+      "download": "courses/story-trip-course.json",
       "estimatedBytes": 1024
     }
   ]

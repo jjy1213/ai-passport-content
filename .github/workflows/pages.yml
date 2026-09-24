@@ -2,7 +2,7 @@ name: Deploy GitHub Pages
 on:
   push:
     branches: [main]
-    paths: [site/**, themes.json, themes/**, .github/workflows/pages.yml]
+    paths: [site/**, themes.json, themes/**, courses/**, .github/workflows/pages.yml]
   workflow_dispatch:
 permissions:
   contents: read
@@ -24,6 +24,7 @@ jobs:
         run: |
           cp themes.json site/themes.json
           cp -R themes site/themes
+          cp -R courses site/courses
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site
