@@ -2,7 +2,7 @@ name: Deploy GitHub Pages
 on:
   push:
     branches: [main]
-    paths: [site/**, themes.json, themes/**, courses/**, firmware/**, .github/workflows/pages.yml]
+    paths: [site/**, themes.json, device-catalog.json, themes/**, courses/**, audio/**, firmware/**, .github/workflows/pages.yml]
   workflow_dispatch:
 permissions:
   contents: read
@@ -23,8 +23,10 @@ jobs:
       - name: Stage public content
         run: |
           cp themes.json site/themes.json
+          cp device-catalog.json site/device-catalog.json
           cp -R themes site/themes
           cp -R courses site/courses
+          if [ -d audio ]; then cp -R audio site/audio; fi
           cp -R firmware site/firmware
       - uses: actions/upload-pages-artifact@v3
         with:

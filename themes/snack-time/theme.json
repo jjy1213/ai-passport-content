@@ -1,1 +1,10 @@
-{"schemaVersion":1,"id":"snack-time","version":1,"title":"Snack Time","accent":"#E55F52","lessons":[{"id":"apple","phrase":"I like apples.","hint":"A crunchy red snack.","audio":null},{"id":"water","phrase":"I want water.","hint":"A simple everyday ask.","audio":null},{"id":"thank-you","phrase":"Thank you!","hint":"A kind phrase to share.","audio":null}]}
+{
+  "schemaVersion": 2,
+  "id": "snack-time",
+  "version": 3,
+  "title": "Snack Time",
+  "titleZh": "点心时间",
+  "accent": "#E55F52",
+  "itemCount": 20,
+  "course": "courses/v3/snack-time.json"
+}

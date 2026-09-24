@@ -1,0 +1,30 @@
+{
+  "format": "ai-passport-course",
+  "schemaVersion": 2,
+  "theme": "animal-friends",
+  "title": "Animal Friends",
+  "titleZh": "动物朋友",
+  "version": 2,
+  "items": [
+    {"word":"cat","meaningZh":"猫","example":"The cat sleeps on the mat.","exampleZh":"猫睡在垫子上。"},
+    {"word":"dog","meaningZh":"狗","example":"My dog likes to run.","exampleZh":"我的狗喜欢跑步。"},
+    {"word":"bird","meaningZh":"鸟","example":"A bird sings in the tree.","exampleZh":"一只鸟在树上唱歌。"},
+    {"word":"fish","meaningZh":"鱼","example":"The fish swims in the pond.","exampleZh":"鱼在池塘里游泳。"},
+    {"word":"rabbit","meaningZh":"兔子","example":"The rabbit has long ears.","exampleZh":"兔子有长耳朵。"},
+    {"word":"duck","meaningZh":"鸭子","example":"The duck swims with her babies.","exampleZh":"鸭妈妈和小鸭子一起游泳。"},
+    {"word":"bear","meaningZh":"熊","example":"The bear walks in the forest.","exampleZh":"熊在森林里行走。"},
+    {"word":"lion","meaningZh":"狮子","example":"The lion has a big mane.","exampleZh":"狮子有大大的鬃毛。"},
+    {"word":"tiger","meaningZh":"老虎","example":"The tiger has orange stripes.","exampleZh":"老虎身上有橙色条纹。"},
+    {"word":"elephant","meaningZh":"大象","example":"The elephant uses its trunk to drink.","exampleZh":"大象用鼻子喝水。"},
+    {"word":"monkey","meaningZh":"猴子","example":"The monkey climbs a tree.","exampleZh":"猴子爬上一棵树。"},
+    {"word":"horse","meaningZh":"马","example":"The horse runs across the field.","exampleZh":"马跑过田野。"},
+    {"word":"sheep","meaningZh":"绵羊","example":"The sheep has soft wool.","exampleZh":"绵羊有柔软的羊毛。"},
+    {"word":"cow","meaningZh":"奶牛","example":"The cow eats grass.","exampleZh":"奶牛吃草。"},
+    {"word":"pig","meaningZh":"猪","example":"The pig rolls in the mud.","exampleZh":"猪在泥里打滚。"},
+    {"word":"butterfly","meaningZh":"蝴蝶","example":"A butterfly lands on a flower.","exampleZh":"一只蝴蝶落在花上。"},
+    {"word":"bee","meaningZh":"蜜蜂","example":"The bee lands on a flower.","exampleZh":"蜜蜂停在一朵花上。"},
+    {"word":"tail","meaningZh":"尾巴","example":"The dog wags its tail.","exampleZh":"狗摇着尾巴。"},
+    {"word":"wing","meaningZh":"翅膀","example":"A bird has a wing on each side.","exampleZh":"鸟的身体两侧各有一只翅膀。"},
+    {"word":"zoo","meaningZh":"动物园","example":"We see animals at the zoo.","exampleZh":"我们在动物园看动物。"}
+  ]
+}

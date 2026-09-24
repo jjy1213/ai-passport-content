@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 2,
+  "themes": [
+    {
+      "id": "good-morning",
+      "title": "Good Morning",
+      "titleZh": "早安时光",
+      "download": "courses/v3/good-morning.json",
+      "sha256": "551e1436d423693562dee7e3e0e6bbd91b3a088fd00229dae6f08d04497b9982"
+    },
+    {
+      "id": "animal-friends",
+      "title": "Animal Friends",
+      "titleZh": "动物朋友",
+      "download": "courses/v3/animal-friends.json",
+      "sha256": "38033ba9614778e09df925ed10895bbe9957295bf98b1852bd0690240ac52eb3"
+    },
+    {
+      "id": "snack-time",
+      "title": "Snack Time",
+      "titleZh": "点心时间",
+      "download": "courses/v3/snack-time.json",
+      "sha256": "8151be40f2e6eb1070cd45cfaa866710482fb1ece46a8eb57a3fe0a4378e46db"
+    },
+    {
+      "id": "story-trip",
+      "title": "Story Trip",
+      "titleZh": "故事旅行",
+      "download": "courses/v3/story-trip.json",
+      "sha256": "f70c3017f63a69f4dd54b9496d0cccd6fccd7c74fc85261c9b54f4d376c610e1"
+    }
+  ]
+}
