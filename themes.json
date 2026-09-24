@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-09-24T00:00:00Z",
+  "themes": [
+    {
+      "id": "good-morning",
+      "title": "Good Morning",
+      "summary": "A gentle first set of greetings for little voices.",
+      "version": 1,
+      "manifest": "themes/good-morning/theme.json",
+      "estimatedBytes": 1024
+    }
+  ]
+}

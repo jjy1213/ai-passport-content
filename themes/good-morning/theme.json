@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "good-morning",
+  "version": 1,
+  "title": "Good Morning",
+  "accent": "#3867D6",
+  "lessons": [
+    {"id":"hello","phrase":"Hello!","hint":"A friendly way to say hi.","audio":null},
+    {"id":"good-morning","phrase":"Good morning!","hint":"A warm start to the day.","audio":null}
+  ]
+}
