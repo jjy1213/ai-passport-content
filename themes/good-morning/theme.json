@@ -1,11 +1,10 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "good-morning",
-  "version": 1,
+  "version": 3,
   "title": "Good Morning",
+  "titleZh": "早安时光",
   "accent": "#3867D6",
-  "lessons": [
-    {"id":"hello","phrase":"Hello!","hint":"A friendly way to say hi.","audio":null},
-    {"id":"good-morning","phrase":"Good morning!","hint":"A warm start to the day.","audio":null}
-  ]
+  "itemCount": 20,
+  "course": "courses/v3/good-morning.json"
 }

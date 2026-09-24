@@ -1,0 +1,30 @@
+{
+  "format": "ai-passport-course",
+  "schemaVersion": 2,
+  "theme": "good-morning",
+  "title": "Good Morning",
+  "titleZh": "早安时光",
+  "version": 2,
+  "items": [
+    {"word":"hello","meaningZh":"你好","example":"Hello, Mom!","exampleZh":"妈妈，你好！"},
+    {"word":"morning","meaningZh":"早晨","example":"Good morning, Dad!","exampleZh":"爸爸，早上好！"},
+    {"word":"wake","meaningZh":"醒来","example":"I wake up when the sun rises.","exampleZh":"太阳升起时我醒来了。"},
+    {"word":"sun","meaningZh":"太阳","example":"The sun is shining.","exampleZh":"太阳正在照耀。"},
+    {"word":"bright","meaningZh":"晴朗的","example":"It is a bright day.","exampleZh":"今天天气晴朗。"},
+    {"word":"day","meaningZh":"一天","example":"Today is a new day.","exampleZh":"今天是新的一天。"},
+    {"word":"smile","meaningZh":"微笑","example":"I smile at my friend.","exampleZh":"我对朋友微笑。"},
+    {"word":"wash","meaningZh":"洗","example":"I wash my hands.","exampleZh":"我洗手。"},
+    {"word":"face","meaningZh":"脸","example":"I wash my face in the morning.","exampleZh":"我早上洗脸。"},
+    {"word":"brush","meaningZh":"刷","example":"I brush my teeth.","exampleZh":"我刷牙。"},
+    {"word":"teeth","meaningZh":"牙齿","example":"My teeth are clean.","exampleZh":"我的牙齿很干净。"},
+    {"word":"breakfast","meaningZh":"早餐","example":"Breakfast is ready.","exampleZh":"早餐准备好了。"},
+    {"word":"milk","meaningZh":"牛奶","example":"I drink a cup of milk.","exampleZh":"我喝一杯牛奶。"},
+    {"word":"toast","meaningZh":"烤面包片","example":"I eat toast for breakfast.","exampleZh":"我早餐吃烤面包片。"},
+    {"word":"egg","meaningZh":"鸡蛋","example":"There is an egg on my plate.","exampleZh":"我的盘子里有一个鸡蛋。"},
+    {"word":"bag","meaningZh":"书包","example":"My bag is by the door.","exampleZh":"我的书包在门边。"},
+    {"word":"school","meaningZh":"学校","example":"I walk to school with Dad.","exampleZh":"我和爸爸步行去学校。"},
+    {"word":"friend","meaningZh":"朋友","example":"My friend waves to me.","exampleZh":"我的朋友向我挥手。"},
+    {"word":"ready","meaningZh":"准备好的","example":"I am ready for school.","exampleZh":"我准备好上学了。"},
+    {"word":"goodbye","meaningZh":"再见","example":"Goodbye, Mom! See you later.","exampleZh":"妈妈，再见！待会儿见。"}
+  ]
+}

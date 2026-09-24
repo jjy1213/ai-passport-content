@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AI Passport · 课程预览</title>
+  <style>
+    :root{--ink:#19324a;--blue:#3867d6;--paper:#fff9ee;--line:#d9e0e8}
+    *{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 system-ui,"Microsoft YaHei",sans-serif}
+    .wrap{max-width:980px;margin:auto;padding:0 22px}header{border-bottom:1px solid var(--line);background:#fff}
+    header .wrap{height:68px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+    a{color:var(--blue)}.brand{font-weight:900;font-size:21px;text-decoration:none;color:var(--ink)}
+    .back{font-weight:700;text-decoration:none}.hero{padding:62px 0 35px}.eyebrow{color:var(--blue);font-weight:800;font-size:12px;letter-spacing:.12em;text-transform:uppercase}
+    h1{font:700 clamp(38px,6vw,64px)/1.05 Georgia,"Noto Serif SC",serif;letter-spacing:-.04em;margin:11px 0}
+    .lead{max-width:640px;color:#55677a;font-size:18px}.status{min-height:24px;color:#55677a}.status:empty{display:none}
+    .cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:17px;padding:18px 0 80px}
+    .card{background:#fff;border:2px solid var(--ink);border-radius:19px;padding:23px;box-shadow:5px 6px 0 #ffdd59}
+    .top{display:flex;align-items:start;justify-content:space-between;gap:12px}.num{font-size:12px;font-weight:800;color:#697b8d}
+    h2{margin:0;font:700 30px/1.1 Georgia,serif}.meaning{margin:7px 0 18px;color:var(--blue);font-weight:800}
+    .example{margin:0 0 4px;font-size:18px;font-weight:700}.translation{margin:0;color:#55677a}
+    .audio{margin-top:18px;min-height:39px;border:0;border-radius:9px;padding:0 13px;background:#edf2ff;color:var(--blue);font-weight:800;cursor:pointer}.audio+.audio{margin-left:8px}
+    .audio[hidden]{display:none}.notice{padding:16px 20px;border-left:4px solid var(--blue);background:#e9f6fa;margin:0 0 35px}
+    @media(max-width:650px){.cards{grid-template-columns:1fr}.hero{padding-top:44px}}
+  </style>
+</head>
+<body>
+  <header><div class="wrap"><a class="brand" href="index.html">FoloToy AI Passport</a><a class="back" href="index.html#themes">← 返回主题</a></div></header>
+  <main class="wrap">
+    <section class="hero"><div class="eyebrow">Learning theme · 课程预览</div><h1 id="title">正在加载课程…</h1><p id="subtitle" class="lead"></p><p id="status" class="status" role="status"></p></section>
+    <p id="notice" class="notice">每个主题包含 20 个单词、中文释义、英文例句和中文翻译。英文朗读将在语音包制作完成后提供。</p>
+    <section id="cards" class="cards" aria-label="课程词卡"></section>
+  </main>
+  <script>
+    const params=new URLSearchParams(location.search),id=params.get('theme');
+    const title=document.querySelector('#title'),subtitle=document.querySelector('#subtitle'),status=document.querySelector('#status'),cards=document.querySelector('#cards'),notice=document.querySelector('#notice');
+    const add=(parent,tag,cls,value)=>{const node=document.createElement(tag);node.className=cls;node.textContent=value;parent.append(node);return node};
+    let audioContext,activeSource;
+    async function playPcm(path){
+      if(!/^audio\/v\d+\/[a-z0-9-]+\/[a-z0-9-]+-(word|example)\.pcm$/.test(path))throw Error('音频地址无效');
+      const response=await fetch(path);
+      if(!response.ok)throw Error('音频暂不可用');
+      const bytes=await response.arrayBuffer();
+      if(bytes.byteLength<3200||bytes.byteLength%2)throw Error('音频文件不完整');
+      audioContext??=new AudioContext();
+      await audioContext.resume();
+      const samples=new DataView(bytes),buffer=audioContext.createBuffer(1,bytes.byteLength/2,16000),channel=buffer.getChannelData(0);
+      for(let i=0;i<channel.length;i++)channel[i]=samples.getInt16(i*2,true)/32768;
+      activeSource?.stop();
+      activeSource=audioContext.createBufferSource();
+      activeSource.buffer=buffer;
+      activeSource.connect(audioContext.destination);
+      activeSource.start();
+    }
+    (async()=>{
+      try{
+        const directory=await fetch('themes.json').then(r=>{if(!r.ok)throw Error('目录暂不可用');return r.json()});
+        const theme=directory.themes.find(t=>t.id===id);
+        if(!theme||!/^courses\/v[0-9]+\/[a-z0-9-]+\.json$/.test(theme.download))throw Error('找不到这个主题');
+        const course=await fetch(theme.download).then(r=>{if(!r.ok)throw Error('课程暂不可用');return r.json()});
+        if(course.schemaVersion!==2||course.theme!==id||course.items?.length!==20)throw Error('课程版本不匹配');
+        title.textContent=course.titleZh;
+        subtitle.textContent=`${course.title} · ${course.items.length} 个单词及例句`;
+        status.textContent='';
+        if(course.items.some(item=>item.wordAudio||item.exampleAudio))notice.textContent='每个主题包含 20 个单词、中文释义、英文例句和中文翻译。英文朗读由千问 AI 语音生成，点击词卡播放。';
+        course.items.forEach((item,index)=>{
+          const card=add(cards,'article','card','');
+          const top=add(card,'div','top','');
+          add(top,'h2','',item.word);
+          add(top,'span','num',String(index+1).padStart(2,'0')+' / 20');
+          add(card,'p','meaning',item.meaningZh);
+          add(card,'p','example',item.example);
+          add(card,'p','translation',item.exampleZh);
+          for(const [field,label] of [['wordAudio','▶ 单词发音'],['exampleAudio','▶ 例句朗读']]){
+            if(!item[field])continue;
+            const button=add(card,'button','audio',label);
+            button.addEventListener('click',async()=>{
+              button.disabled=true;
+              try{await playPcm(item[field]);status.textContent=''}
+              catch(error){status.textContent=error.message}
+              finally{button.disabled=false}
+            });
+          }
+        });
+      }catch(error){title.textContent='课程暂时无法打开';status.textContent=error.message}
+    })();
+  </script>
+</body>
+</html>

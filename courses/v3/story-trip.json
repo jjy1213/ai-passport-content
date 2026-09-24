@@ -1,0 +1,170 @@
+{
+  "format": "ai-passport-course",
+  "schemaVersion": 2,
+  "theme": "story-trip",
+  "title": "Story Trip",
+  "titleZh": "故事旅行",
+  "version": 3,
+  "items": [
+    {
+      "word": "story",
+      "meaningZh": "故事",
+      "example": "Grandpa tells me a story.",
+      "exampleZh": "爷爷给我讲故事。",
+      "wordAudio": "audio/v3/story-trip/story-word.pcm",
+      "exampleAudio": "audio/v3/story-trip/story-example.pcm"
+    },
+    {
+      "word": "book",
+      "meaningZh": "书",
+      "example": "I open my favorite book.",
+      "exampleZh": "我打开最喜欢的书。",
+      "wordAudio": "audio/v3/story-trip/book-word.pcm",
+      "exampleAudio": "audio/v3/story-trip/book-example.pcm"
+    },
+    {
+      "word": "page",
+      "meaningZh": "书页",
+      "example": "I turn the page.",
+      "exampleZh": "我翻过这一页。",
+      "wordAudio": "audio/v3/story-trip/page-word.pcm",
+      "exampleAudio": "audio/v3/story-trip/page-example.pcm"
+    },
+    {
+      "word": "hero",
+      "meaningZh": "故事里的主角",
+      "example": "The little fox is our hero.",
+      "exampleZh": "小狐狸是故事的主角。",
+      "wordAudio": "audio/v3/story-trip/hero-word.pcm",
+      "exampleAudio": "audio/v3/story-trip/hero-example.pcm"
+    },
+    {
+      "word": "map",
+      "meaningZh": "地图",
+      "example": "We follow the map.",
+      "exampleZh": "我们跟着地图走。",
+      "wordAudio": "audio/v3/story-trip/map-word.pcm",
+      "exampleAudio": "audio/v3/story-trip/map-example.pcm"
+    },
+    {
+      "word": "path",
+      "meaningZh": "小路",
+      "example": "The path leads to the river.",
+      "exampleZh": "这条小路通向河边。",
+      "wordAudio": "audio/v3/story-trip/path-word.pcm",
+      "exampleAudio": "audio/v3/story-trip/path-example.pcm"
+    },
+    {
+      "word": "forest",
+      "meaningZh": "森林",
+      "example": "We walk through the forest.",
+      "exampleZh": "我们穿过森林。",
+      "wordAudio": "audio/v3/story-trip/forest-word.pcm",
+      "exampleAudio": "audio/v3/story-trip/forest-example.pcm"
+    },
+    {
+      "word": "river",
+      "meaningZh": "河流",
+      "example": "The river is wide.",
+      "exampleZh": "这条河很宽。",
+      "wordAudio": "audio/v3/story-trip/river-word.pcm",
+      "exampleAudio": "audio/v3/story-trip/river-example.pcm"
+    },
+    {
+      "word": "bridge",
+      "meaningZh": "桥",
+      "example": "We cross the bridge together.",
+      "exampleZh": "我们一起过桥。",
+      "wordAudio": "audio/v3/story-trip/bridge-word.pcm",
+      "exampleAudio": "audio/v3/story-trip/bridge-example.pcm"
+    },
+    {
+      "word": "boat",
+      "meaningZh": "小船",
+      "example": "The boat floats on the water.",
+      "exampleZh": "小船漂在水面上。",
+      "wordAudio": "audio/v3/story-trip/boat-word.pcm",
+      "exampleAudio": "audio/v3/story-trip/boat-example.pcm"
+    },
+    {
+      "word": "star",
+      "meaningZh": "星星",
+      "example": "I see a star in the sky.",
+      "exampleZh": "我在天空中看见一颗星星。",
+      "wordAudio": "audio/v3/story-trip/star-word.pcm",
+      "exampleAudio": "audio/v3/story-trip/star-example.pcm"
+    },
+    {
+      "word": "moon",
+      "meaningZh": "月亮",
+      "example": "The moon is bright tonight.",
+      "exampleZh": "今晚的月亮很亮。",
+      "wordAudio": "audio/v3/story-trip/moon-word.pcm",
+      "exampleAudio": "audio/v3/story-trip/moon-example.pcm"
+    },
+    {
+      "word": "cloud",
+      "meaningZh": "云",
+      "example": "A cloud covers the moon.",
+      "exampleZh": "一朵云遮住了月亮。",
+      "wordAudio": "audio/v3/story-trip/cloud-word.pcm",
+      "exampleAudio": "audio/v3/story-trip/cloud-example.pcm"
+    },
+    {
+      "word": "mountain",
+      "meaningZh": "山",
+      "example": "The mountain looks tall.",
+      "exampleZh": "这座山看起来很高。",
+      "wordAudio": "audio/v3/story-trip/mountain-word.pcm",
+      "exampleAudio": "audio/v3/story-trip/mountain-example.pcm"
+    },
+    {
+      "word": "find",
+      "meaningZh": "找到",
+      "example": "We find a small blue door.",
+      "exampleZh": "我们找到一扇蓝色的小门。",
+      "wordAudio": "audio/v3/story-trip/find-word.pcm",
+      "exampleAudio": "audio/v3/story-trip/find-example.pcm"
+    },
+    {
+      "word": "look",
+      "meaningZh": "看",
+      "example": "Look over there!",
+      "exampleZh": "看那边！",
+      "wordAudio": "audio/v3/story-trip/look-word.pcm",
+      "exampleAudio": "audio/v3/story-trip/look-example.pcm"
+    },
+    {
+      "word": "go",
+      "meaningZh": "去",
+      "example": "Let's go on an adventure!",
+      "exampleZh": "我们去探险吧！",
+      "wordAudio": "audio/v3/story-trip/go-word.pcm",
+      "exampleAudio": "audio/v3/story-trip/go-example.pcm"
+    },
+    {
+      "word": "home",
+      "meaningZh": "家",
+      "example": "Let's go home together.",
+      "exampleZh": "我们一起回家吧。",
+      "wordAudio": "audio/v3/story-trip/home-word.pcm",
+      "exampleAudio": "audio/v3/story-trip/home-example.pcm"
+    },
+    {
+      "word": "brave",
+      "meaningZh": "勇敢的",
+      "example": "The brave rabbit helps a friend.",
+      "exampleZh": "勇敢的兔子帮助了一位朋友。",
+      "wordAudio": "audio/v3/story-trip/brave-word.pcm",
+      "exampleAudio": "audio/v3/story-trip/brave-example.pcm"
+    },
+    {
+      "word": "adventure",
+      "meaningZh": "冒险",
+      "example": "Our adventure begins today.",
+      "exampleZh": "我们的冒险今天开始了！",
+      "wordAudio": "audio/v3/story-trip/adventure-word.pcm",
+      "exampleAudio": "audio/v3/story-trip/adventure-example.pcm"
+    }
+  ]
+}

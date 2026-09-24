@@ -1,0 +1,170 @@
+{
+  "format": "ai-passport-course",
+  "schemaVersion": 2,
+  "theme": "snack-time",
+  "title": "Snack Time",
+  "titleZh": "点心时间",
+  "version": 3,
+  "items": [
+    {
+      "word": "apple",
+      "meaningZh": "苹果",
+      "example": "I eat an apple after school.",
+      "exampleZh": "放学后我吃一个苹果。",
+      "wordAudio": "audio/v3/snack-time/apple-word.pcm",
+      "exampleAudio": "audio/v3/snack-time/apple-example.pcm"
+    },
+    {
+      "word": "banana",
+      "meaningZh": "香蕉",
+      "example": "I peel a banana.",
+      "exampleZh": "我剥开一根香蕉。",
+      "wordAudio": "audio/v3/snack-time/banana-word.pcm",
+      "exampleAudio": "audio/v3/snack-time/banana-example.pcm"
+    },
+    {
+      "word": "orange",
+      "meaningZh": "橙子",
+      "example": "This orange is sweet.",
+      "exampleZh": "这个橙子很甜。",
+      "wordAudio": "audio/v3/snack-time/orange-word.pcm",
+      "exampleAudio": "audio/v3/snack-time/orange-example.pcm"
+    },
+    {
+      "word": "grape",
+      "meaningZh": "葡萄",
+      "example": "I put a grape on my plate.",
+      "exampleZh": "我把一颗葡萄放在盘子里。",
+      "wordAudio": "audio/v3/snack-time/grape-word.pcm",
+      "exampleAudio": "audio/v3/snack-time/grape-example.pcm"
+    },
+    {
+      "word": "strawberry",
+      "meaningZh": "草莓",
+      "example": "The strawberry is red.",
+      "exampleZh": "这颗草莓是红色的。",
+      "wordAudio": "audio/v3/snack-time/strawberry-word.pcm",
+      "exampleAudio": "audio/v3/snack-time/strawberry-example.pcm"
+    },
+    {
+      "word": "bread",
+      "meaningZh": "面包",
+      "example": "I eat bread with my soup.",
+      "exampleZh": "我喝汤时吃面包。",
+      "wordAudio": "audio/v3/snack-time/bread-word.pcm",
+      "exampleAudio": "audio/v3/snack-time/bread-example.pcm"
+    },
+    {
+      "word": "rice",
+      "meaningZh": "米饭",
+      "example": "I eat rice for lunch.",
+      "exampleZh": "我午餐吃米饭。",
+      "wordAudio": "audio/v3/snack-time/rice-word.pcm",
+      "exampleAudio": "audio/v3/snack-time/rice-example.pcm"
+    },
+    {
+      "word": "water",
+      "meaningZh": "水",
+      "example": "May I have some water, please?",
+      "exampleZh": "请给我一些水，好吗？",
+      "wordAudio": "audio/v3/snack-time/water-word.pcm",
+      "exampleAudio": "audio/v3/snack-time/water-example.pcm"
+    },
+    {
+      "word": "juice",
+      "meaningZh": "果汁",
+      "example": "I drink a little apple juice.",
+      "exampleZh": "我喝一点苹果汁。",
+      "wordAudio": "audio/v3/snack-time/juice-word.pcm",
+      "exampleAudio": "audio/v3/snack-time/juice-example.pcm"
+    },
+    {
+      "word": "yogurt",
+      "meaningZh": "酸奶",
+      "example": "I eat yogurt with a spoon.",
+      "exampleZh": "我用勺子吃酸奶。",
+      "wordAudio": "audio/v3/snack-time/yogurt-word.pcm",
+      "exampleAudio": "audio/v3/snack-time/yogurt-example.pcm"
+    },
+    {
+      "word": "cheese",
+      "meaningZh": "奶酪",
+      "example": "There is cheese in my sandwich.",
+      "exampleZh": "我的三明治里有奶酪。",
+      "wordAudio": "audio/v3/snack-time/cheese-word.pcm",
+      "exampleAudio": "audio/v3/snack-time/cheese-example.pcm"
+    },
+    {
+      "word": "carrot",
+      "meaningZh": "胡萝卜",
+      "example": "The rabbit eats a carrot.",
+      "exampleZh": "兔子吃一根胡萝卜。",
+      "wordAudio": "audio/v3/snack-time/carrot-word.pcm",
+      "exampleAudio": "audio/v3/snack-time/carrot-example.pcm"
+    },
+    {
+      "word": "cookie",
+      "meaningZh": "饼干",
+      "example": "I share a cookie with my friend.",
+      "exampleZh": "我和朋友分享一块饼干。",
+      "wordAudio": "audio/v3/snack-time/cookie-word.pcm",
+      "exampleAudio": "audio/v3/snack-time/cookie-example.pcm"
+    },
+    {
+      "word": "spoon",
+      "meaningZh": "勺子",
+      "example": "I use a spoon for my soup.",
+      "exampleZh": "我用勺子喝汤。",
+      "wordAudio": "audio/v3/snack-time/spoon-word.pcm",
+      "exampleAudio": "audio/v3/snack-time/spoon-example.pcm"
+    },
+    {
+      "word": "cup",
+      "meaningZh": "杯子",
+      "example": "My cup is on the table.",
+      "exampleZh": "我的杯子在桌上。",
+      "wordAudio": "audio/v3/snack-time/cup-word.pcm",
+      "exampleAudio": "audio/v3/snack-time/cup-example.pcm"
+    },
+    {
+      "word": "plate",
+      "meaningZh": "盘子",
+      "example": "I put my apple on a plate.",
+      "exampleZh": "我把苹果放在盘子上。",
+      "wordAudio": "audio/v3/snack-time/plate-word.pcm",
+      "exampleAudio": "audio/v3/snack-time/plate-example.pcm"
+    },
+    {
+      "word": "hungry",
+      "meaningZh": "饿的",
+      "example": "I am hungry after playing.",
+      "exampleZh": "玩过之后我饿了。",
+      "wordAudio": "audio/v3/snack-time/hungry-word.pcm",
+      "exampleAudio": "audio/v3/snack-time/hungry-example.pcm"
+    },
+    {
+      "word": "thirsty",
+      "meaningZh": "口渴的",
+      "example": "I am thirsty. I need water.",
+      "exampleZh": "我口渴了，需要喝水。",
+      "wordAudio": "audio/v3/snack-time/thirsty-word.pcm",
+      "exampleAudio": "audio/v3/snack-time/thirsty-example.pcm"
+    },
+    {
+      "word": "share",
+      "meaningZh": "分享",
+      "example": "We share our snacks.",
+      "exampleZh": "我们分享点心。",
+      "wordAudio": "audio/v3/snack-time/share-word.pcm",
+      "exampleAudio": "audio/v3/snack-time/share-example.pcm"
+    },
+    {
+      "word": "thanks",
+      "meaningZh": "谢谢",
+      "example": "Thanks for the apple!",
+      "exampleZh": "谢谢你给我的苹果！",
+      "wordAudio": "audio/v3/snack-time/thanks-word.pcm",
+      "exampleAudio": "audio/v3/snack-time/thanks-example.pcm"
+    }
+  ]
+}

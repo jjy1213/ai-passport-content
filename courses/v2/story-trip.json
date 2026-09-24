@@ -1,0 +1,30 @@
+{
+  "format": "ai-passport-course",
+  "schemaVersion": 2,
+  "theme": "story-trip",
+  "title": "Story Trip",
+  "titleZh": "故事旅行",
+  "version": 2,
+  "items": [
+    {"word":"story","meaningZh":"故事","example":"Grandpa tells me a story.","exampleZh":"爷爷给我讲故事。"},
+    {"word":"book","meaningZh":"书","example":"I open my favorite book.","exampleZh":"我打开最喜欢的书。"},
+    {"word":"page","meaningZh":"书页","example":"I turn the page.","exampleZh":"我翻过这一页。"},
+    {"word":"hero","meaningZh":"故事里的主角","example":"The little fox is our hero.","exampleZh":"小狐狸是故事的主角。"},
+    {"word":"map","meaningZh":"地图","example":"We follow the map.","exampleZh":"我们跟着地图走。"},
+    {"word":"path","meaningZh":"小路","example":"The path leads to the river.","exampleZh":"这条小路通向河边。"},
+    {"word":"forest","meaningZh":"森林","example":"We walk through the forest.","exampleZh":"我们穿过森林。"},
+    {"word":"river","meaningZh":"河流","example":"The river is wide.","exampleZh":"这条河很宽。"},
+    {"word":"bridge","meaningZh":"桥","example":"We cross the bridge together.","exampleZh":"我们一起过桥。"},
+    {"word":"boat","meaningZh":"小船","example":"The boat floats on the water.","exampleZh":"小船漂在水面上。"},
+    {"word":"star","meaningZh":"星星","example":"I see a star in the sky.","exampleZh":"我在天空中看见一颗星星。"},
+    {"word":"moon","meaningZh":"月亮","example":"The moon is bright tonight.","exampleZh":"今晚的月亮很亮。"},
+    {"word":"cloud","meaningZh":"云","example":"A cloud covers the moon.","exampleZh":"一朵云遮住了月亮。"},
+    {"word":"mountain","meaningZh":"山","example":"The mountain looks tall.","exampleZh":"这座山看起来很高。"},
+    {"word":"find","meaningZh":"找到","example":"We find a small blue door.","exampleZh":"我们找到一扇蓝色的小门。"},
+    {"word":"look","meaningZh":"看","example":"Look over there!","exampleZh":"看那边！"},
+    {"word":"go","meaningZh":"去","example":"Let's go on an adventure!","exampleZh":"我们去探险吧！"},
+    {"word":"home","meaningZh":"家","example":"Let's go home together.","exampleZh":"我们一起回家吧。"},
+    {"word":"brave","meaningZh":"勇敢的","example":"The brave rabbit helps a friend.","exampleZh":"勇敢的兔子帮助了一位朋友。"},
+    {"word":"adventure","meaningZh":"冒险","example":"Our adventure begins today.","exampleZh":"我们的冒险今天开始了！"}
+  ]
+}

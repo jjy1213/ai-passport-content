@@ -1,0 +1,170 @@
+{
+  "format": "ai-passport-course",
+  "schemaVersion": 2,
+  "theme": "animal-friends",
+  "title": "Animal Friends",
+  "titleZh": "动物朋友",
+  "version": 3,
+  "items": [
+    {
+      "word": "cat",
+      "meaningZh": "猫",
+      "example": "The cat sleeps on the mat.",
+      "exampleZh": "猫睡在垫子上。",
+      "wordAudio": "audio/v3/animal-friends/cat-word.pcm",
+      "exampleAudio": "audio/v3/animal-friends/cat-example.pcm"
+    },
+    {
+      "word": "dog",
+      "meaningZh": "狗",
+      "example": "My dog likes to run.",
+      "exampleZh": "我的狗喜欢跑步。",
+      "wordAudio": "audio/v3/animal-friends/dog-word.pcm",
+      "exampleAudio": "audio/v3/animal-friends/dog-example.pcm"
+    },
+    {
+      "word": "bird",
+      "meaningZh": "鸟",
+      "example": "A bird sings in the tree.",
+      "exampleZh": "一只鸟在树上唱歌。",
+      "wordAudio": "audio/v3/animal-friends/bird-word.pcm",
+      "exampleAudio": "audio/v3/animal-friends/bird-example.pcm"
+    },
+    {
+      "word": "fish",
+      "meaningZh": "鱼",
+      "example": "The fish swims in the pond.",
+      "exampleZh": "鱼在池塘里游泳。",
+      "wordAudio": "audio/v3/animal-friends/fish-word.pcm",
+      "exampleAudio": "audio/v3/animal-friends/fish-example.pcm"
+    },
+    {
+      "word": "rabbit",
+      "meaningZh": "兔子",
+      "example": "The rabbit has long ears.",
+      "exampleZh": "兔子有长耳朵。",
+      "wordAudio": "audio/v3/animal-friends/rabbit-word.pcm",
+      "exampleAudio": "audio/v3/animal-friends/rabbit-example.pcm"
+    },
+    {
+      "word": "duck",
+      "meaningZh": "鸭子",
+      "example": "The duck swims with her babies.",
+      "exampleZh": "鸭妈妈和小鸭子一起游泳。",
+      "wordAudio": "audio/v3/animal-friends/duck-word.pcm",
+      "exampleAudio": "audio/v3/animal-friends/duck-example.pcm"
+    },
+    {
+      "word": "bear",
+      "meaningZh": "熊",
+      "example": "The bear walks in the forest.",
+      "exampleZh": "熊在森林里行走。",
+      "wordAudio": "audio/v3/animal-friends/bear-word.pcm",
+      "exampleAudio": "audio/v3/animal-friends/bear-example.pcm"
+    },
+    {
+      "word": "lion",
+      "meaningZh": "狮子",
+      "example": "The lion has a big mane.",
+      "exampleZh": "狮子有大大的鬃毛。",
+      "wordAudio": "audio/v3/animal-friends/lion-word.pcm",
+      "exampleAudio": "audio/v3/animal-friends/lion-example.pcm"
+    },
+    {
+      "word": "tiger",
+      "meaningZh": "老虎",
+      "example": "The tiger has orange stripes.",
+      "exampleZh": "老虎身上有橙色条纹。",
+      "wordAudio": "audio/v3/animal-friends/tiger-word.pcm",
+      "exampleAudio": "audio/v3/animal-friends/tiger-example.pcm"
+    },
+    {
+      "word": "elephant",
+      "meaningZh": "大象",
+      "example": "The elephant uses its trunk to drink.",
+      "exampleZh": "大象用鼻子喝水。",
+      "wordAudio": "audio/v3/animal-friends/elephant-word.pcm",
+      "exampleAudio": "audio/v3/animal-friends/elephant-example.pcm"
+    },
+    {
+      "word": "monkey",
+      "meaningZh": "猴子",
+      "example": "The monkey climbs a tree.",
+      "exampleZh": "猴子爬上一棵树。",
+      "wordAudio": "audio/v3/animal-friends/monkey-word.pcm",
+      "exampleAudio": "audio/v3/animal-friends/monkey-example.pcm"
+    },
+    {
+      "word": "horse",
+      "meaningZh": "马",
+      "example": "The horse runs across the field.",
+      "exampleZh": "马跑过田野。",
+      "wordAudio": "audio/v3/animal-friends/horse-word.pcm",
+      "exampleAudio": "audio/v3/animal-friends/horse-example.pcm"
+    },
+    {
+      "word": "sheep",
+      "meaningZh": "绵羊",
+      "example": "The sheep has soft wool.",
+      "exampleZh": "绵羊有柔软的羊毛。",
+      "wordAudio": "audio/v3/animal-friends/sheep-word.pcm",
+      "exampleAudio": "audio/v3/animal-friends/sheep-example.pcm"
+    },
+    {
+      "word": "cow",
+      "meaningZh": "奶牛",
+      "example": "The cow eats grass.",
+      "exampleZh": "奶牛吃草。",
+      "wordAudio": "audio/v3/animal-friends/cow-word.pcm",
+      "exampleAudio": "audio/v3/animal-friends/cow-example.pcm"
+    },
+    {
+      "word": "pig",
+      "meaningZh": "猪",
+      "example": "The pig rolls in the mud.",
+      "exampleZh": "猪在泥里打滚。",
+      "wordAudio": "audio/v3/animal-friends/pig-word.pcm",
+      "exampleAudio": "audio/v3/animal-friends/pig-example.pcm"
+    },
+    {
+      "word": "butterfly",
+      "meaningZh": "蝴蝶",
+      "example": "A butterfly lands on a flower.",
+      "exampleZh": "一只蝴蝶落在花上。",
+      "wordAudio": "audio/v3/animal-friends/butterfly-word.pcm",
+      "exampleAudio": "audio/v3/animal-friends/butterfly-example.pcm"
+    },
+    {
+      "word": "bee",
+      "meaningZh": "蜜蜂",
+      "example": "The bee lands on a flower.",
+      "exampleZh": "蜜蜂停在一朵花上。",
+      "wordAudio": "audio/v3/animal-friends/bee-word.pcm",
+      "exampleAudio": "audio/v3/animal-friends/bee-example.pcm"
+    },
+    {
+      "word": "tail",
+      "meaningZh": "尾巴",
+      "example": "The dog wags its tail.",
+      "exampleZh": "狗摇着尾巴。",
+      "wordAudio": "audio/v3/animal-friends/tail-word.pcm",
+      "exampleAudio": "audio/v3/animal-friends/tail-example.pcm"
+    },
+    {
+      "word": "wing",
+      "meaningZh": "翅膀",
+      "example": "A bird has a wing on each side.",
+      "exampleZh": "鸟的身体两侧各有一只翅膀。",
+      "wordAudio": "audio/v3/animal-friends/wing-word.pcm",
+      "exampleAudio": "audio/v3/animal-friends/wing-example.pcm"
+    },
+    {
+      "word": "zoo",
+      "meaningZh": "动物园",
+      "example": "We see animals at the zoo.",
+      "exampleZh": "我们在动物园看动物。",
+      "wordAudio": "audio/v3/animal-friends/zoo-word.pcm",
+      "exampleAudio": "audio/v3/animal-friends/zoo-example.pcm"
+    }
+  ]
+}
