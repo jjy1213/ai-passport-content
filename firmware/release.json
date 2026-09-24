@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "latest": "0.1.0",
+  "releases": [
+    {
+      "version": "0.1.0",
+      "chip": "esp32c3",
+      "flashMode": "dio",
+      "flashFrequency": "80m",
+      "flashSize": "8MB",
+      "preservesNvs": true,
+      "parts": [
+        {"path": "0.1.0/bootloader.bin", "offset": 0, "sha256": "453a8ead064d8b4d45bc63c1ce831131883eabe123226bd3b17e39ef888eee4c"},
+        {"path": "0.1.0/partition-table.bin", "offset": 32768, "sha256": "420931e3f5af072d899b5357c043fd9f283bf165fc9df6113b6d43d82b48a06d"},
+        {"path": "0.1.0/ai-passport.bin", "offset": 65536, "sha256": "74dff72073eddb36391092161c2d96b03ee8a5c22db144b88e2b4f778c1aa5b5"}
+      ]
+    }
+  ]
+}
