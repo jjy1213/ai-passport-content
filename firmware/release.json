@@ -1,7 +1,21 @@
 {
   "schemaVersion": 1,
-  "latest": "0.1.0",
+  "latest": "0.2.0",
   "releases": [
+    {
+      "version": "0.2.0",
+      "chip": "esp32c3",
+      "flashMode": "dio",
+      "flashFrequency": "80m",
+      "flashSize": "8MB",
+      "preservesNvs": true,
+      "notes": "Adds iPhone-friendly local Wi-Fi hotspot setup.",
+      "parts": [
+        {"path": "0.2.0/bootloader.bin", "offset": 0, "sha256": "453a8ead064d8b4d45bc63c1ce831131883eabe123226bd3b17e39ef888eee4c"},
+        {"path": "0.2.0/partition-table.bin", "offset": 32768, "sha256": "420931e3f5af072d899b5357c043fd9f283bf165fc9df6113b6d43d82b48a06d"},
+        {"path": "0.2.0/ai-passport.bin", "offset": 65536, "sha256": "3b28fa2b34a560f8604a80d475b57844489acd60596580c84557a37983e8b4d1"}
+      ]
+    },
     {
       "version": "0.1.0",
       "chip": "esp32c3",
